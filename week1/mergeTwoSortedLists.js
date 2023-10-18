@@ -41,7 +41,7 @@ var mergeTwoLists = function (list1, list2) {
     // traverse through both lists and compare nodes
     while(list1 !== null && list2 !== null){
         // if list1 value is smaller add to merge list
-        if(list1.val() < list2.val()){
+        if(list1.val < list2.val){
             current.next = list1 // make current = the current list
             list1 = list1.next // move on to the next value in the node
         } else {
