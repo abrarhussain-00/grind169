@@ -25,6 +25,7 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
+
 var reverseList = function(head) {
     // Initialize pointers for previous, current, and next nodes
     let prev = null; // Previous node starts as null
